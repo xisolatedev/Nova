@@ -1,0 +1,27 @@
+
+# AI Models and Weights
+models/
+*.safetensors
+*.gguf
+*.ggml
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Hugging Face
+.cache/
+huggingface/
+checkpoints/
+
+# Environment
+.env
+.env.*
