@@ -25,3 +25,12 @@ checkpoints/
 # Environment
 .env
 .env.*
+
+# Native inference runtime and generated artifacts
+.runtime/
+build/
+dist/
+*.partial
+*.log
+*.egg-info/
+.venv-ming/
